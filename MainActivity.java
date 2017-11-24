@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new ListView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-              /*  View view1 = layoutOne.getRootView();
+               View view1 = layoutOne.getRootView();
                 View view2=layoutTwo.getRootView();
                 final LinearLayout linear1 = view1.findViewById(R.id.layout1);
                 final LinearLayout linear2 = view2.findViewById(R.id.layout2);
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     {
                         linear1.setVisibility(View.VISIBLE);
 
-                }*/
+                }
 
             }
         });
